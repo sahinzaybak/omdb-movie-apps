@@ -1,0 +1,46 @@
+.movies {
+  padding: 40px;
+  background-color: #f9f7f4;
+  margin: 34px;
+  border-radius: 12px;
+  border: 1px solid #e1e0e0;
+
+  &-top {
+    display: flex;
+    align-items: center;
+    color: #de3e87;
+
+    h1 {
+      text-transform: capitalize;
+      font-weight: 800;
+    }
+
+    i {
+      font-size: 33px;
+      margin-right: 14px;
+    }
+  }
+
+  &-filter{
+    padding: 26px 26px 0px 26px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  input {
+    height: 46px;
+  }
+
+  a {
+    color: #de3e87;
+    font-weight: 800;
+  }
+
+}
